@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="RockPaperScissor.css" />
+  </head>
+  <body>
+    <div class="layout">
+      <div class="game">
+        <div class="outer-layout">
+          <h1 id="heading1">Rock Paper Scissor</h1>
+          <button class="start">Start</button>
+        </div>
+
+        <div class="inner-layout">
+          <h2 id="heading2">Rock Paper Scissor</h2>
+
+          <div class="container">
+            <div class="sub-container">
+              <div class="game-img" id="rock">
+                <img src="rock.png" class="border" alt="rock" />
+              </div>
+
+              <div class="game-img" id="paper">
+                <img src="paper.png" class="border" alt="paper" />
+              </div>
+
+              <div class="game-img" id="scissors">
+                <img src="scissors.png" class="border" alt="scissor" />
+              </div>
+            </div>
+
+            <div class="msg"></div>
+
+            <div class="score-board">
+              <div class="value">
+                <p id="user-score">0</p>
+                <p class="player">You</p>
+              </div>
+
+              <div class="value">
+                <p id="comp-score">0</p>
+                <p class="player">Comp</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="subinner-layout">
+          <div class="para">Congrulation</div>
+          <button class="reset-btn">Reset Game</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="RockPaperScissor.js"></script>
+  </body>
+</html>

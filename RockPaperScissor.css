@@ -1,0 +1,94 @@
+@import url("href=https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.game {
+  height: 65vh;
+  width: 130vh;
+  border-radius: 2rem;
+  box-shadow: 4px 4px 12px 4px black;
+  background-color: rgb(232, 232, 228);
+}
+
+img {
+  height: 15vh;
+  width: 15vh;
+  object-fit: cover;
+}
+
+.layout {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 20vh;
+}
+
+.sub-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 10vh;
+}
+
+.game-img img {
+  border-radius: 50%;
+}
+
+.border:hover {
+  border: 3px solid black;
+}
+
+.score-board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7vh;
+  gap: 6rem;
+  line-height: 2rem;
+}
+
+#heading2 {
+  margin-top: 2rem;
+}
+
+#user-score {
+  font-size: 2.5rem;
+}
+
+#comp-score {
+  font-size: 2.5rem;
+}
+
+.start {
+  border: none;
+  font-size: 1.5rem;
+  background-color: rgb(232, 232, 228);
+  margin-top: 1.5rem;
+}
+
+#heading1 {
+  margin-top: 25vh;
+}
+
+.msg {
+  font-size: 1.7rem;
+  margin-top: 2rem;
+}
+
+.para {
+  margin-top: 24vh;
+  font-size: 2rem;
+}
+
+.reset-btn {
+  border: none;
+  font-size: 1.5rem;
+  background-color: rgb(232, 232, 228);
+  margin-top: 2rem;
+}
